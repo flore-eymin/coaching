@@ -118,14 +118,14 @@ nav {
     margin: 0;
 }
 
-.view-resume-button {
+.view-more-button {
     font-size: 24px;
     padding-top: 100px;
 }
 
-.view-resume-button-link {
+.view-more-button-link {
     text-decoration: none;
-    color: #ecf0f1;;
+    color: #f4f1e1; /*beige*/
     text-transform: uppercase;
     font-family: 'Bitter', serif;
     font-weight: bold;
