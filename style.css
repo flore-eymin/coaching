@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bitter:400,700');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 html {
     height: 100%;
@@ -11,7 +10,7 @@ body {
     color: 	#154f35; /*vert fonce*/
     height: 100%;
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 a {
@@ -40,7 +39,7 @@ nav {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 80%;
     margin: 20px auto;
 }
@@ -48,7 +47,6 @@ nav {
 .logo {
     font-size: 46px;
     color: #3e8766;/*vert plus clair*/
-    font-family: 'Bitter', serif;
     font-weight: bold;
 }
 
@@ -76,7 +74,6 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     color: 	#154f35; /*vert fonce*/
-    font-family: 'Bitter', serif;
 }
 
 /* Angle icon */
@@ -127,9 +124,30 @@ nav {
     text-decoration: none;
     color: #f4f1e1; /*beige*/
     text-transform: uppercase;
-    font-family: 'Bitter', serif;
     font-weight: bold;
 }
+
+
+/* Content */
+
+.content {
+    background-color: #154f35; /*vert fonce*/
+    color: 	#f4f1e1; /*beige*/
+    text-align: center;
+    padding: 100px 0;
+}
+
+.content-title {
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+
+.content-text {
+    padding-top: 20px;
+    margin: 0;
+}
+
 
 
 /* Footer */
