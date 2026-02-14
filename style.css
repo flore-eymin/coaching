@@ -106,7 +106,7 @@ nav {
 
 .about-image {
     width: 15%;
-    object-position: 5% 5%;      /* object-position: horizontal vertical; 0% 0% = top left, 100% 100% = bottom right, 50% 50% = center (default) */
+    object-position: 0% 15%;      /* object-position: horizontal vertical; 0% 0% = top left, 100% 100% = bottom right, 50% 50% = center (default) */
     aspect-ratio: 1 / 1;      /* Ensures it's square */
     border-radius: 50%;       /* Makes it a circle */
     object-fit: cover;        /* Prevents stretching */
