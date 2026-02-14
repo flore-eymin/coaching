@@ -106,7 +106,9 @@ nav {
 
 .about-image {
     width: 15%;
-    border-radius: 0;
+    aspect-ratio: 1 / 1;      /* Ensures it's square */
+    border-radius: 50%;       /* Makes it a circle */
+    object-fit: cover;        /* Prevents stretching */
     padding: 0;
 }
 
