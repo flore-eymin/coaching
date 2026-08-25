@@ -202,3 +202,364 @@ nav {
     font-size: 13px;
     color: #7f8c8d;
 }
+
+/* =========================================
+   SEANCES & TARIFS
+   ========================================= */
+
+
+/* Prevent the pricing page from being overly wide */
+
+.pricing-content {
+    width: 100%;
+}
+
+
+/* Greeting */
+
+.seances-greeting {
+    height: 100vh;
+}
+
+
+/* Generic pricing sections */
+
+.pricing-section {
+    padding: 100px 20px;
+}
+
+.pricing-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Beige sections */
+
+.pricing-section-light {
+    background-color: #f4f1e1;
+    color: #154f35;
+}
+
+
+/* Green sections */
+
+.pricing-section-green {
+    background-color: #154f35;
+    color: #f4f1e1;
+}
+
+
+/* Section title */
+
+.pricing-category {
+    font-size: 42px;
+    text-transform: uppercase;
+    margin: 0 0 60px 0;
+    text-align: left;
+}
+
+
+/* =========================================
+   IN-PERSON PRICES
+   ========================================= */
+
+.in-person-prices {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.simple-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    border-bottom: 1px solid rgba(21, 79, 53, 0.35);
+
+    padding-bottom: 20px;
+
+    font-size: 28px;
+}
+
+
+.simple-price-title {
+    font-weight: bold;
+}
+
+
+.simple-price-value {
+    white-space: nowrap;
+}
+
+
+/* =========================================
+   OFFER CARDS
+   ========================================= */
+
+.offer-card {
+    background-color: #f4f1e1;
+    color: #154f35;
+
+    padding: 50px;
+
+    margin-bottom: 50px;
+
+    box-sizing: border-box;
+}
+
+
+/* Offer heading + price */
+
+.offer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    gap: 30px;
+
+    border-bottom: 2px solid #154f35;
+
+    padding-bottom: 25px;
+
+    margin-bottom: 35px;
+}
+
+
+.offer-header h3 {
+    font-size: 34px;
+    margin: 0;
+}
+
+
+.offer-price {
+    font-size: 32px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+
+.offer-price span {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+
+/* Intro */
+
+.offer-intro {
+    font-size: 21px;
+    line-height: 1.7;
+
+    margin-bottom: 35px;
+}
+
+
+/* "Inclus" */
+
+.offer-card h4 {
+    font-size: 24px;
+
+    margin-bottom: 20px;
+}
+
+
+/* Bullet list */
+
+.offer-list {
+    margin: 0;
+    padding-left: 25px;
+
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+.offer-list li {
+    margin-bottom: 10px;
+}
+
+
+/* Minimum commitment */
+
+.minimum-engagement {
+    font-size: 22px;
+    font-style: italic;
+
+    margin: 40px 0 0 0;
+}
+
+
+/* Note below the remote coaching offers */
+
+.pricing-note {
+    font-size: 20px;
+    line-height: 1.7;
+
+    font-style: italic;
+
+    max-width: 850px;
+
+    margin-top: 20px;
+}
+
+
+/* =========================================
+   HYBRID OFFER
+   ========================================= */
+
+.hybrid-offer {
+    max-width: 800px;
+}
+
+
+.hybrid-offer h3 {
+    font-size: 32px;
+
+    margin-top: 0;
+}
+
+
+.hybrid-offer p {
+    font-size: 22px;
+
+    line-height: 1.7;
+}
+
+
+.hybrid-price {
+    font-weight: bold;
+
+    margin-top: 35px;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 768px) {
+
+
+    /* Header */
+
+    .header-content {
+        width: 90%;
+    }
+
+
+    /* Hero */
+
+    .greeting {
+        font-size: 38px;
+        text-align: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+
+    /* Sections */
+
+    .pricing-section {
+        padding: 70px 0;
+    }
+
+
+    .pricing-container {
+        width: 90%;
+    }
+
+
+    .pricing-category {
+        font-size: 30px;
+
+        margin-bottom: 40px;
+    }
+
+
+    /* Simple prices */
+
+    .simple-price {
+        flex-direction: column;
+
+        gap: 8px;
+
+        font-size: 23px;
+    }
+
+
+    /* Cards */
+
+    .offer-card {
+        padding: 30px 25px;
+    }
+
+
+    .offer-header {
+        flex-direction: column;
+
+        gap: 15px;
+
+        align-items: flex-start;
+    }
+
+
+    .offer-header h3 {
+        font-size: 28px;
+    }
+
+
+    .offer-price {
+        font-size: 28px;
+    }
+
+
+    .offer-intro {
+        font-size: 19px;
+    }
+
+
+    .offer-list {
+        font-size: 17px;
+    }
+
+
+    .minimum-engagement {
+        font-size: 20px;
+    }
+
+
+    .pricing-note {
+        font-size: 18px;
+    }
+
+
+    .hybrid-offer h3 {
+        font-size: 27px;
+    }
+
+
+    .hybrid-offer p {
+        font-size: 19px;
+    }
+
+
+    /* Footer */
+
+    .footer {
+        padding: 70px 20px;
+    }
+
+
+    .footer-title {
+        font-size: 32px;
+    }
+
+
+    .social-media {
+        padding: 40px 0;
+    }
+
+}
